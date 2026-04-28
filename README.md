@@ -165,14 +165,15 @@ literature, in roughly increasing distance from this project:
   toward rarer terms. *eLife* 9:e53385.
   doi:[10.7554/eLife.53385](https://doi.org/10.7554/eLife.53385)
 - **French & Pavlidis (2012)** mapped >100,000 brain-region mentions
-  from the *Journal of Comparative Neurology* to formal neuroanatomical
-  identifiers, addressing the same nomenclature/disambiguation
-  problems this pipeline has to handle. *PLoS Comput. Biol.* 8:e1002311.
-  doi:[10.1371/journal.pcbi.1002311](https://doi.org/10.1371/journal.pcbi.1002311)
-- **French et al. (2009)** built the WhiteText corpus and an automated
+  from the *Journal of Comparative Neurology* literature to formal
+  neuroanatomical identifiers, addressing the same nomenclature and
+  disambiguation problems this pipeline has to handle.
+  *J. Comp. Neurol.* 520(8):1772–83.
+  doi:[10.1002/cne.23012](https://doi.org/10.1002/cne.23012)
+- **French et al. (2009)** built an annotated corpus and an automated
   recognizer for brain-region mentions in neuroscience abstracts.
-  *Neuroinformatics* 7:147–160.
-  doi:[10.1007/s12021-009-9056-z](https://doi.org/10.1007/s12021-009-9056-z)
+  *Front. Neuroinform.* 3:29.
+  doi:[10.3389/neuro.11.029.2009](https://doi.org/10.3389/neuro.11.029.2009)
 - **Stoeger et al. (2018)** is the parallel story for genes: across
   ~20,000 human protein-coding genes, attention is concentrated on a
   small set, and the bias is largely historical rather than biological.
