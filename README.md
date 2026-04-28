@@ -37,6 +37,20 @@ The most striking inclusive-vs-exclusive gap is **cingulate cortex**:
 13,031 inclusive papers, but only 1,718 of those don't already mention
 ACC or PCC. The umbrella term is almost never used on its own.
 
+Bottom 5 by inclusive count (across all 98 regions tracked):
+
+| Rank | Region                       | Inclusive | Category   |
+|-----:|------------------------------|----------:|------------|
+|   1  | interposed nucleus           |        43 | cerebellum |
+|   2  | medial geniculate nucleus    |       105 | thalamus   |
+|   3  | fastigial nucleus            |       111 | cerebellum |
+|   4  | dentate nucleus (cerebellar) |       147 | cerebellum |
+|   5  | olfactory tubercle           |       150 | olfactory  |
+
+Three of the five are deep cerebellar nuclei. Cerebellum-as-an-umbrella
+gets 23,511 papers, but its named compartments are nearly invisible in
+the literature.
+
 Whitespace candidates (under ~300 papers across the whole decade):
 
 - Cerebellar deep nuclei — interposed (43), fastigial (111), dentate
@@ -128,6 +142,60 @@ Specific things to keep in mind:
 - **Counts drift.** PubMed grows daily and re-indexes occasionally, so a
   re-run will produce slightly different numbers. The CSV records the
   query date.
+
+## Related work
+
+Other bibliometric and text-mining analyses of the neuroscience
+literature, in roughly increasing distance from this project:
+
+- **Simpson et al. (2021)** is the closest prior work I'm aware of:
+  they ran a PubMed term-count analysis over Allen Mouse Brain Atlas
+  region names and found that nine regions account for ~75% of
+  publications while the remaining 188 regions share the rest. The
+  paper argues for unbiased whole-brain methods to identify the
+  overlooked regions. *Front. Syst. Neurosci.* 15:595507.
+  doi:[10.3389/fnsys.2021.595507](https://doi.org/10.3389/fnsys.2021.595507)
+- **Yarkoni et al. (2011)**, Neurosynth — the canonical large-scale
+  text-mining + meta-analysis of the human neuroimaging literature,
+  mapping cognitive terms to activation coordinates.
+  *Nat. Methods* 8:665–670.
+  doi:[10.1038/nmeth.1635](https://doi.org/10.1038/nmeth.1635)
+- **Dockès et al. (2020)**, NeuroQuery — a comprehensive predictive
+  model of the human brain-imaging literature, extending Neurosynth
+  toward rarer terms. *eLife* 9:e53385.
+  doi:[10.7554/eLife.53385](https://doi.org/10.7554/eLife.53385)
+- **French & Pavlidis (2012)** mapped >100,000 brain-region mentions
+  from the *Journal of Comparative Neurology* to formal neuroanatomical
+  identifiers, addressing the same nomenclature/disambiguation
+  problems this pipeline has to handle. *PLoS Comput. Biol.* 8:e1002311.
+  doi:[10.1371/journal.pcbi.1002311](https://doi.org/10.1371/journal.pcbi.1002311)
+- **French et al. (2009)** built the WhiteText corpus and an automated
+  recognizer for brain-region mentions in neuroscience abstracts.
+  *Neuroinformatics* 7:147–160.
+  doi:[10.1007/s12021-009-9056-z](https://doi.org/10.1007/s12021-009-9056-z)
+- **Stoeger et al. (2018)** is the parallel story for genes: across
+  ~20,000 human protein-coding genes, attention is concentrated on a
+  small set, and the bias is largely historical rather than biological.
+  *PLoS Biology* 16:e2006643.
+  doi:[10.1371/journal.pbio.2006643](https://doi.org/10.1371/journal.pbio.2006643)
+- **Crick & Koch (2005)**, "What is the function of the claustrum?",
+  is the canonical "small region, big mystery" piece — claustrum
+  shows up here at 502 papers/decade despite a long history of being
+  flagged as functionally important. *Phil. Trans. R. Soc. B*
+  360:1271–1279.
+  doi:[10.1098/rstb.2005.1661](https://doi.org/10.1098/rstb.2005.1661)
+- **Hitti & Siegelbaum (2014)** showed that hippocampal CA2 is
+  required for social memory, sparking the modern wave of CA2 work
+  that shows up in our 1,066-paper count. *Nature* 508:88–92.
+  doi:[10.1038/nature13028](https://doi.org/10.1038/nature13028)
+
+What this project adds that those don't: a small, transparent,
+re-runnable script with explicit phrase + abbreviation rules per
+region, and an explicit hierarchy that lets you read off how much of
+an "umbrella" region's literature is really about a named subdivision.
+The numbers are crude relative to NeuroQuery's coordinate-based
+modeling, but you can audit and tweak every query in `run.py` and
+re-run in under a minute.
 
 ## License
 
