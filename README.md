@@ -17,7 +17,7 @@ Top 15 by inclusive count:
 
 | Rank | Region                       | Inclusive | Exclusive of subregions |
 |-----:|------------------------------|----------:|------------------------:|
-| 1    | hippocampus                  |    66,791 |                  56,595 |
+| 1    | hippocampus                  |    66,791 |                  55,626 |
 | 2    | prefrontal cortex            |    37,338 |                  18,339 |
 | 3    | brainstem                    |    25,661 |                  21,374 |
 | 4    | cerebellum                   |    23,511 |                  21,799 |
@@ -45,8 +45,8 @@ Whitespace candidates (under ~300 papers across the whole decade):
   flocculus (157)
 - Medial geniculate (105), interpeduncular (170), pontine nuclei (173)
 - Anterior thalamic nuclei (266), mediodorsal thalamus (396)
-- **CA2 hippocampal subfield (212)** — historically tiny relative to
-  CA1 (5,952) and CA3 (1,462)
+- **CA2 hippocampal subfield (1,066)** — small relative to CA1 (8,334)
+  and CA3 (2,896), but the gap is real, not a query artifact
 
 The full ranking is in `regions.csv`.
 
@@ -106,12 +106,17 @@ scientific importance, citation impact, or anatomical ground truth.
 
 Specific things to keep in mind:
 
-- **CA1 / CA2 / CA3 are phrase-only.** PubMed normalizes calcium tokens
-  like `Ca2+`, so any `"CAn"[tiab] AND ...` disambiguation still lets
-  calcium-signaling papers through. The pipeline therefore matches only
-  multi-word forms like "hippocampal CA1" or "CA1 pyramidal". This
-  undercounts papers that say "CA1" without a partner word, but the
-  alternative was a CA2 count dominated by `Ca2+` mentions.
+- **CA1 / CA2 / CA3 use a hybrid query.** PubMed normalizes calcium
+  tokens like `Ca2+` to overlap with the CAn pattern, so a naive
+  `"CAn"[tiab] AND hippocamp*` filter leaks calcium-signaling papers.
+  Phrase-only matching is the other extreme and undercounts legitimate
+  papers that say "Ca2+ imaging in CA2 of hippocampus" without matching
+  one of the canned phrases. The pipeline matches the canonical phrase
+  forms PLUS the bare abbreviation guarded by subfield-architecture
+  anchors (Schaffer collateral, stratum pyramidale, mossy fiber,
+  perforant path, place cell, social memory, …) — vocabulary that
+  essentially never appears in unrelated calcium papers. See
+  `CA_SUBFIELD_ANCHORS` in `run.py`.
 - **Subdivisions can co-occur.** A paper mentioning both CA1 and CA3
   counts toward each. The exclusive-of-subdivisions logic only operates
   parent→child, not sibling→sibling.

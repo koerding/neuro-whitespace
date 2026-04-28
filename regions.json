@@ -14,7 +14,7 @@
     "log10_inclusive_count_p1": 4.5722,
     "norm_inclusive_count": 0.9206,
     "log10_exclusive_count_p1": 4.2634,
-    "norm_exclusive_count": 0.8426
+    "norm_exclusive_count": 0.8446
   },
   {
     "region": "medial prefrontal cortex",
@@ -31,7 +31,7 @@
     "log10_inclusive_count_p1": 3.9398,
     "norm_inclusive_count": 0.7218,
     "log10_exclusive_count_p1": 3.9398,
-    "norm_exclusive_count": 0.7385
+    "norm_exclusive_count": 0.7403
   },
   {
     "region": "dorsolateral prefrontal cortex",
@@ -48,7 +48,7 @@
     "log10_inclusive_count_p1": 3.9379,
     "norm_inclusive_count": 0.7212,
     "log10_exclusive_count_p1": 3.9379,
-    "norm_exclusive_count": 0.7379
+    "norm_exclusive_count": 0.7397
   },
   {
     "region": "ventromedial prefrontal cortex",
@@ -65,7 +65,7 @@
     "log10_inclusive_count_p1": 3.3664,
     "norm_inclusive_count": 0.5416,
     "log10_exclusive_count_p1": 3.3664,
-    "norm_exclusive_count": 0.5541
+    "norm_exclusive_count": 0.5555
   },
   {
     "region": "orbitofrontal cortex",
@@ -82,7 +82,7 @@
     "log10_inclusive_count_p1": 3.7047,
     "norm_inclusive_count": 0.6479,
     "log10_exclusive_count_p1": 3.7047,
-    "norm_exclusive_count": 0.6629
+    "norm_exclusive_count": 0.6645
   },
   {
     "region": "frontal cortex",
@@ -99,7 +99,7 @@
     "log10_inclusive_count_p1": 3.9194,
     "norm_inclusive_count": 0.7154,
     "log10_exclusive_count_p1": 3.799,
-    "norm_exclusive_count": 0.6932
+    "norm_exclusive_count": 0.6949
   },
   {
     "region": "motor cortex",
@@ -116,7 +116,7 @@
     "log10_inclusive_count_p1": 4.0794,
     "norm_inclusive_count": 0.7657,
     "log10_exclusive_count_p1": 4.039,
-    "norm_exclusive_count": 0.7704
+    "norm_exclusive_count": 0.7723
   },
   {
     "region": "premotor cortex",
@@ -133,7 +133,7 @@
     "log10_inclusive_count_p1": 3.2625,
     "norm_inclusive_count": 0.5089,
     "log10_exclusive_count_p1": 3.2625,
-    "norm_exclusive_count": 0.5207
+    "norm_exclusive_count": 0.5219
   },
   {
     "region": "supplementary motor area",
@@ -150,7 +150,7 @@
     "log10_inclusive_count_p1": 3.5096,
     "norm_inclusive_count": 0.5866,
     "log10_exclusive_count_p1": 3.5096,
-    "norm_exclusive_count": 0.6002
+    "norm_exclusive_count": 0.6016
   },
   {
     "region": "somatosensory cortex",
@@ -167,7 +167,7 @@
     "log10_inclusive_count_p1": 3.6407,
     "norm_inclusive_count": 0.6278,
     "log10_exclusive_count_p1": 3.6407,
-    "norm_exclusive_count": 0.6423
+    "norm_exclusive_count": 0.6439
   },
   {
     "region": "parietal cortex",
@@ -184,7 +184,7 @@
     "log10_inclusive_count_p1": 3.689,
     "norm_inclusive_count": 0.643,
     "log10_exclusive_count_p1": 3.5373,
-    "norm_exclusive_count": 0.6091
+    "norm_exclusive_count": 0.6106
   },
   {
     "region": "posterior parietal cortex",
@@ -201,7 +201,7 @@
     "log10_inclusive_count_p1": 3.1691,
     "norm_inclusive_count": 0.4796,
     "log10_exclusive_count_p1": 3.1691,
-    "norm_exclusive_count": 0.4907
+    "norm_exclusive_count": 0.4918
   },
   {
     "region": "auditory cortex",
@@ -218,7 +218,7 @@
     "log10_inclusive_count_p1": 3.6083,
     "norm_inclusive_count": 0.6176,
     "log10_exclusive_count_p1": 3.6083,
-    "norm_exclusive_count": 0.6319
+    "norm_exclusive_count": 0.6335
   },
   {
     "region": "visual cortex",
@@ -235,7 +235,7 @@
     "log10_inclusive_count_p1": 3.966,
     "norm_inclusive_count": 0.7301,
     "log10_exclusive_count_p1": 3.7865,
-    "norm_exclusive_count": 0.6892
+    "norm_exclusive_count": 0.6909
   },
   {
     "region": "primary visual cortex",
@@ -252,7 +252,7 @@
     "log10_inclusive_count_p1": 3.505,
     "norm_inclusive_count": 0.5852,
     "log10_exclusive_count_p1": 3.505,
-    "norm_exclusive_count": 0.5987
+    "norm_exclusive_count": 0.6001
   },
   {
     "region": "occipital cortex",
@@ -269,7 +269,7 @@
     "log10_inclusive_count_p1": 3.3813,
     "norm_inclusive_count": 0.5463,
     "log10_exclusive_count_p1": 3.328,
-    "norm_exclusive_count": 0.5418
+    "norm_exclusive_count": 0.5431
   },
   {
     "region": "temporal cortex",
@@ -286,7 +286,7 @@
     "log10_inclusive_count_p1": 3.5411,
     "norm_inclusive_count": 0.5965,
     "log10_exclusive_count_p1": 3.4764,
-    "norm_exclusive_count": 0.5895
+    "norm_exclusive_count": 0.5909
   },
   {
     "region": "inferior temporal cortex",
@@ -303,7 +303,7 @@
     "log10_inclusive_count_p1": 2.7059,
     "norm_inclusive_count": 0.334,
     "log10_exclusive_count_p1": 2.7059,
-    "norm_exclusive_count": 0.3417
+    "norm_exclusive_count": 0.3425
   },
   {
     "region": "superior temporal gyrus",
@@ -320,7 +320,7 @@
     "log10_inclusive_count_p1": 3.5263,
     "norm_inclusive_count": 0.5919,
     "log10_exclusive_count_p1": 3.5263,
-    "norm_exclusive_count": 0.6056
+    "norm_exclusive_count": 0.607
   },
   {
     "region": "fusiform gyrus",
@@ -337,7 +337,7 @@
     "log10_inclusive_count_p1": 3.3416,
     "norm_inclusive_count": 0.5338,
     "log10_exclusive_count_p1": 3.3416,
-    "norm_exclusive_count": 0.5462
+    "norm_exclusive_count": 0.5475
   },
   {
     "region": "angular gyrus",
@@ -354,7 +354,7 @@
     "log10_inclusive_count_p1": 3.3054,
     "norm_inclusive_count": 0.5224,
     "log10_exclusive_count_p1": 3.3054,
-    "norm_exclusive_count": 0.5345
+    "norm_exclusive_count": 0.5358
   },
   {
     "region": "supramarginal gyrus",
@@ -371,7 +371,7 @@
     "log10_inclusive_count_p1": 3.234,
     "norm_inclusive_count": 0.5,
     "log10_exclusive_count_p1": 3.234,
-    "norm_exclusive_count": 0.5115
+    "norm_exclusive_count": 0.5128
   },
   {
     "region": "anterior cingulate cortex",
@@ -388,7 +388,7 @@
     "log10_inclusive_count_p1": 3.9578,
     "norm_inclusive_count": 0.7275,
     "log10_exclusive_count_p1": 3.9578,
-    "norm_exclusive_count": 0.7443
+    "norm_exclusive_count": 0.7461
   },
   {
     "region": "posterior cingulate cortex",
@@ -405,7 +405,7 @@
     "log10_inclusive_count_p1": 3.4953,
     "norm_inclusive_count": 0.5821,
     "log10_exclusive_count_p1": 3.4953,
-    "norm_exclusive_count": 0.5956
+    "norm_exclusive_count": 0.597
   },
   {
     "region": "cingulate cortex",
@@ -422,7 +422,7 @@
     "log10_inclusive_count_p1": 4.115,
     "norm_inclusive_count": 0.7769,
     "log10_exclusive_count_p1": 3.2353,
-    "norm_exclusive_count": 0.512
+    "norm_exclusive_count": 0.5132
   },
   {
     "region": "retrosplenial cortex",
@@ -439,7 +439,7 @@
     "log10_inclusive_count_p1": 2.9484,
     "norm_inclusive_count": 0.4102,
     "log10_exclusive_count_p1": 2.9484,
-    "norm_exclusive_count": 0.4197
+    "norm_exclusive_count": 0.4207
   },
   {
     "region": "insular cortex",
@@ -456,7 +456,7 @@
     "log10_inclusive_count_p1": 4.1046,
     "norm_inclusive_count": 0.7736,
     "log10_exclusive_count_p1": 4.1046,
-    "norm_exclusive_count": 0.7915
+    "norm_exclusive_count": 0.7935
   },
   {
     "region": "entorhinal cortex",
@@ -473,7 +473,7 @@
     "log10_inclusive_count_p1": 3.5457,
     "norm_inclusive_count": 0.5979,
     "log10_exclusive_count_p1": 3.5457,
-    "norm_exclusive_count": 0.6118
+    "norm_exclusive_count": 0.6133
   },
   {
     "region": "perirhinal cortex",
@@ -490,7 +490,7 @@
     "log10_inclusive_count_p1": 2.7634,
     "norm_inclusive_count": 0.3521,
     "log10_exclusive_count_p1": 2.7634,
-    "norm_exclusive_count": 0.3602
+    "norm_exclusive_count": 0.3611
   },
   {
     "region": "parahippocampal cortex",
@@ -507,7 +507,7 @@
     "log10_inclusive_count_p1": 2.601,
     "norm_inclusive_count": 0.301,
     "log10_exclusive_count_p1": 2.601,
-    "norm_exclusive_count": 0.308
+    "norm_exclusive_count": 0.3087
   },
   {
     "region": "piriform cortex",
@@ -524,7 +524,7 @@
     "log10_inclusive_count_p1": 2.9484,
     "norm_inclusive_count": 0.4102,
     "log10_exclusive_count_p1": 2.9484,
-    "norm_exclusive_count": 0.4197
+    "norm_exclusive_count": 0.4207
   },
   {
     "region": "hippocampus",
@@ -532,15 +532,15 @@
     "parent": "",
     "n_descendants": 5,
     "inclusive_query": "((\"hippocampus\"[tiab] OR \"hippocampal formation\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"hippocampus\"[tiab] OR \"hippocampal formation\"[tiab])) NOT ((\"subiculum\"[tiab]) OR (\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab]) OR (\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab]) OR (\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab]) OR (\"dentate gyrus\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "(((\"hippocampus\"[tiab] OR \"hippocampal formation\"[tiab])) NOT ((\"subiculum\"[tiab]) OR (\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab] OR \"CA3 area\"[tiab] OR \"CA3 subfield\"[tiab] OR (\"CA3\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab]))) OR (\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab] OR \"CA2 pyramidal\"[tiab] OR \"CA2 neurons\"[tiab] OR \"CA2 area\"[tiab] OR \"CA2 subfield\"[tiab] OR (\"CA2\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab]))) OR (\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab] OR \"CA1 area\"[tiab] OR \"CA1 subfield\"[tiab] OR (\"CA1\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab]))) OR (\"dentate gyrus\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
     "inclusive_count": 66791,
-    "exclusive_count": 56595,
+    "exclusive_count": 55626,
     "inclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampus%22%5Btiab%5D+OR+%22hippocampal+formation%22%5Btiab%5D%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
-    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%28%22hippocampus%22%5Btiab%5D+OR+%22hippocampal+formation%22%5Btiab%5D%29%29+NOT+%28%28%22subiculum%22%5Btiab%5D%29+OR+%28%22hippocampal+CA3%22%5Btiab%5D+OR+%22CA3+region%22%5Btiab%5D+OR+%22CA3+pyramidal%22%5Btiab%5D+OR+%22CA3+neurons%22%5Btiab%5D+OR+%22CA3+of+the+hippocampus%22%5Btiab%5D%29+OR+%28%22hippocampal+CA2%22%5Btiab%5D+OR+%22CA2+region%22%5Btiab%5D+OR+%22CA2+of+the+hippocampus%22%5Btiab%5D%29+OR+%28%22hippocampal+CA1%22%5Btiab%5D+OR+%22CA1+region%22%5Btiab%5D+OR+%22CA1+pyramidal%22%5Btiab%5D+OR+%22CA1+neurons%22%5Btiab%5D+OR+%22CA1+of+the+hippocampus%22%5Btiab%5D%29+OR+%28%22dentate+gyrus%22%5Btiab%5D%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
+    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%28%22hippocampus%22%5Btiab%5D+OR+%22hippocampal+formation%22%5Btiab%5D%29%29+NOT+%28%28%22subiculum%22%5Btiab%5D%29+OR+%28%22hippocampal+CA3%22%5Btiab%5D+OR+%22CA3+region%22%5Btiab%5D+OR+%22CA3+pyramidal%22%5Btiab%5D+OR+%22CA3+neurons%22%5Btiab%5D+OR+%22CA3+of+the+hippocampus%22%5Btiab%5D+OR+%22CA3+area%22%5Btiab%5D+OR+%22CA3+subfield%22%5Btiab%5D+OR+%28%22CA3%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29+OR+%28%22hippocampal+CA2%22%5Btiab%5D+OR+%22CA2+region%22%5Btiab%5D+OR+%22CA2+of+the+hippocampus%22%5Btiab%5D+OR+%22CA2+pyramidal%22%5Btiab%5D+OR+%22CA2+neurons%22%5Btiab%5D+OR+%22CA2+area%22%5Btiab%5D+OR+%22CA2+subfield%22%5Btiab%5D+OR+%28%22CA2%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29+OR+%28%22hippocampal+CA1%22%5Btiab%5D+OR+%22CA1+region%22%5Btiab%5D+OR+%22CA1+pyramidal%22%5Btiab%5D+OR+%22CA1+neurons%22%5Btiab%5D+OR+%22CA1+of+the+hippocampus%22%5Btiab%5D+OR+%22CA1+area%22%5Btiab%5D+OR+%22CA1+subfield%22%5Btiab%5D+OR+%28%22CA1%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29+OR+%28%22dentate+gyrus%22%5Btiab%5D%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
     "query_date": "2026-04-28",
     "log10_inclusive_count_p1": 4.8247,
     "norm_inclusive_count": 1.0,
-    "log10_exclusive_count_p1": 4.7528,
+    "log10_exclusive_count_p1": 4.7453,
     "norm_exclusive_count": 1.0
   },
   {
@@ -558,58 +558,58 @@
     "log10_inclusive_count_p1": 3.8785,
     "norm_inclusive_count": 0.7026,
     "log10_exclusive_count_p1": 3.8785,
-    "norm_exclusive_count": 0.7188
+    "norm_exclusive_count": 0.7205
   },
   {
     "region": "CA1",
     "category": "hippocampal",
     "parent": "hippocampus",
     "n_descendants": 0,
-    "inclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "inclusive_count": 5952,
-    "exclusive_count": 5952,
-    "inclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA1%22%5Btiab%5D+OR+%22CA1+region%22%5Btiab%5D+OR+%22CA1+pyramidal%22%5Btiab%5D+OR+%22CA1+neurons%22%5Btiab%5D+OR+%22CA1+of+the+hippocampus%22%5Btiab%5D%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
-    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA1%22%5Btiab%5D+OR+%22CA1+region%22%5Btiab%5D+OR+%22CA1+pyramidal%22%5Btiab%5D+OR+%22CA1+neurons%22%5Btiab%5D+OR+%22CA1+of+the+hippocampus%22%5Btiab%5D%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
+    "inclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab] OR \"CA1 area\"[tiab] OR \"CA1 subfield\"[tiab] OR (\"CA1\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab] OR \"CA1 area\"[tiab] OR \"CA1 subfield\"[tiab] OR (\"CA1\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "inclusive_count": 8334,
+    "exclusive_count": 8334,
+    "inclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA1%22%5Btiab%5D+OR+%22CA1+region%22%5Btiab%5D+OR+%22CA1+pyramidal%22%5Btiab%5D+OR+%22CA1+neurons%22%5Btiab%5D+OR+%22CA1+of+the+hippocampus%22%5Btiab%5D+OR+%22CA1+area%22%5Btiab%5D+OR+%22CA1+subfield%22%5Btiab%5D+OR+%28%22CA1%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
+    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA1%22%5Btiab%5D+OR+%22CA1+region%22%5Btiab%5D+OR+%22CA1+pyramidal%22%5Btiab%5D+OR+%22CA1+neurons%22%5Btiab%5D+OR+%22CA1+of+the+hippocampus%22%5Btiab%5D+OR+%22CA1+area%22%5Btiab%5D+OR+%22CA1+subfield%22%5Btiab%5D+OR+%28%22CA1%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
     "query_date": "2026-04-28",
-    "log10_inclusive_count_p1": 3.7747,
-    "norm_inclusive_count": 0.6699,
-    "log10_exclusive_count_p1": 3.7747,
-    "norm_exclusive_count": 0.6854
+    "log10_inclusive_count_p1": 3.9209,
+    "norm_inclusive_count": 0.7159,
+    "log10_exclusive_count_p1": 3.9209,
+    "norm_exclusive_count": 0.7342
   },
   {
     "region": "CA2",
     "category": "hippocampal",
     "parent": "hippocampus",
     "n_descendants": 0,
-    "inclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "inclusive_count": 212,
-    "exclusive_count": 212,
-    "inclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA2%22%5Btiab%5D+OR+%22CA2+region%22%5Btiab%5D+OR+%22CA2+of+the+hippocampus%22%5Btiab%5D%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
-    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA2%22%5Btiab%5D+OR+%22CA2+region%22%5Btiab%5D+OR+%22CA2+of+the+hippocampus%22%5Btiab%5D%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
+    "inclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab] OR \"CA2 pyramidal\"[tiab] OR \"CA2 neurons\"[tiab] OR \"CA2 area\"[tiab] OR \"CA2 subfield\"[tiab] OR (\"CA2\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab] OR \"CA2 pyramidal\"[tiab] OR \"CA2 neurons\"[tiab] OR \"CA2 area\"[tiab] OR \"CA2 subfield\"[tiab] OR (\"CA2\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "inclusive_count": 1066,
+    "exclusive_count": 1066,
+    "inclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA2%22%5Btiab%5D+OR+%22CA2+region%22%5Btiab%5D+OR+%22CA2+of+the+hippocampus%22%5Btiab%5D+OR+%22CA2+pyramidal%22%5Btiab%5D+OR+%22CA2+neurons%22%5Btiab%5D+OR+%22CA2+area%22%5Btiab%5D+OR+%22CA2+subfield%22%5Btiab%5D+OR+%28%22CA2%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
+    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA2%22%5Btiab%5D+OR+%22CA2+region%22%5Btiab%5D+OR+%22CA2+of+the+hippocampus%22%5Btiab%5D+OR+%22CA2+pyramidal%22%5Btiab%5D+OR+%22CA2+neurons%22%5Btiab%5D+OR+%22CA2+area%22%5Btiab%5D+OR+%22CA2+subfield%22%5Btiab%5D+OR+%28%22CA2%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
     "query_date": "2026-04-28",
-    "log10_inclusive_count_p1": 2.3284,
-    "norm_inclusive_count": 0.2153,
-    "log10_exclusive_count_p1": 2.3284,
-    "norm_exclusive_count": 0.2203
+    "log10_inclusive_count_p1": 3.0282,
+    "norm_inclusive_count": 0.4353,
+    "log10_exclusive_count_p1": 3.0282,
+    "norm_exclusive_count": 0.4464
   },
   {
     "region": "CA3",
     "category": "hippocampal",
     "parent": "hippocampus",
     "n_descendants": 0,
-    "inclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "inclusive_count": 1462,
-    "exclusive_count": 1462,
-    "inclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA3%22%5Btiab%5D+OR+%22CA3+region%22%5Btiab%5D+OR+%22CA3+pyramidal%22%5Btiab%5D+OR+%22CA3+neurons%22%5Btiab%5D+OR+%22CA3+of+the+hippocampus%22%5Btiab%5D%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
-    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA3%22%5Btiab%5D+OR+%22CA3+region%22%5Btiab%5D+OR+%22CA3+pyramidal%22%5Btiab%5D+OR+%22CA3+neurons%22%5Btiab%5D+OR+%22CA3+of+the+hippocampus%22%5Btiab%5D%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
+    "inclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab] OR \"CA3 area\"[tiab] OR \"CA3 subfield\"[tiab] OR (\"CA3\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab] OR \"CA3 area\"[tiab] OR \"CA3 subfield\"[tiab] OR (\"CA3\"[tiab] AND (\"place cell\"[tiab] OR \"place cells\"[tiab] OR \"social memory\"[tiab] OR \"pyramidal layer\"[tiab] OR \"stratum pyramidale\"[tiab] OR \"stratum radiatum\"[tiab] OR \"stratum oriens\"[tiab] OR \"dentate gyrus\"[tiab] OR \"schaffer collateral\"[tiab] OR \"schaffer collaterals\"[tiab] OR \"mossy fiber\"[tiab] OR \"mossy fibers\"[tiab] OR \"perforant path\"[tiab] OR \"hippocampal subfield\"[tiab] OR \"hippocampal subfields\"[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "inclusive_count": 2896,
+    "exclusive_count": 2896,
+    "inclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA3%22%5Btiab%5D+OR+%22CA3+region%22%5Btiab%5D+OR+%22CA3+pyramidal%22%5Btiab%5D+OR+%22CA3+neurons%22%5Btiab%5D+OR+%22CA3+of+the+hippocampus%22%5Btiab%5D+OR+%22CA3+area%22%5Btiab%5D+OR+%22CA3+subfield%22%5Btiab%5D+OR+%28%22CA3%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
+    "exclusive_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%28%22hippocampal+CA3%22%5Btiab%5D+OR+%22CA3+region%22%5Btiab%5D+OR+%22CA3+pyramidal%22%5Btiab%5D+OR+%22CA3+neurons%22%5Btiab%5D+OR+%22CA3+of+the+hippocampus%22%5Btiab%5D+OR+%22CA3+area%22%5Btiab%5D+OR+%22CA3+subfield%22%5Btiab%5D+OR+%28%22CA3%22%5Btiab%5D+AND+%28%22place+cell%22%5Btiab%5D+OR+%22place+cells%22%5Btiab%5D+OR+%22social+memory%22%5Btiab%5D+OR+%22pyramidal+layer%22%5Btiab%5D+OR+%22stratum+pyramidale%22%5Btiab%5D+OR+%22stratum+radiatum%22%5Btiab%5D+OR+%22stratum+oriens%22%5Btiab%5D+OR+%22dentate+gyrus%22%5Btiab%5D+OR+%22schaffer+collateral%22%5Btiab%5D+OR+%22schaffer+collaterals%22%5Btiab%5D+OR+%22mossy+fiber%22%5Btiab%5D+OR+%22mossy+fibers%22%5Btiab%5D+OR+%22perforant+path%22%5Btiab%5D+OR+%22hippocampal+subfield%22%5Btiab%5D+OR+%22hippocampal+subfields%22%5Btiab%5D%29%29%29%29+AND+%28%222015%22%5BPDAT%5D+%3A+%222025%22%5BPDAT%5D%29&retmode=json&rettype=count&tool=brain_region_prevalence&email=koerding%40gmail.com",
     "query_date": "2026-04-28",
-    "log10_inclusive_count_p1": 3.1652,
-    "norm_inclusive_count": 0.4784,
-    "log10_exclusive_count_p1": 3.1652,
-    "norm_exclusive_count": 0.4894
+    "log10_inclusive_count_p1": 3.4619,
+    "norm_inclusive_count": 0.5716,
+    "log10_exclusive_count_p1": 3.4619,
+    "norm_exclusive_count": 0.5863
   },
   {
     "region": "subiculum",
@@ -626,7 +626,7 @@
     "log10_inclusive_count_p1": 3.1169,
     "norm_inclusive_count": 0.4632,
     "log10_exclusive_count_p1": 3.1169,
-    "norm_exclusive_count": 0.4739
+    "norm_exclusive_count": 0.475
   },
   {
     "region": "amygdala",
@@ -643,7 +643,7 @@
     "log10_inclusive_count_p1": 4.3097,
     "norm_inclusive_count": 0.8381,
     "log10_exclusive_count_p1": 4.2125,
-    "norm_exclusive_count": 0.8262
+    "norm_exclusive_count": 0.8282
   },
   {
     "region": "basolateral amygdala",
@@ -660,7 +660,7 @@
     "log10_inclusive_count_p1": 3.445,
     "norm_inclusive_count": 0.5663,
     "log10_exclusive_count_p1": 3.445,
-    "norm_exclusive_count": 0.5794
+    "norm_exclusive_count": 0.5808
   },
   {
     "region": "central amygdala",
@@ -677,7 +677,7 @@
     "log10_inclusive_count_p1": 3.2753,
     "norm_inclusive_count": 0.513,
     "log10_exclusive_count_p1": 3.2753,
-    "norm_exclusive_count": 0.5248
+    "norm_exclusive_count": 0.5261
   },
   {
     "region": "bed nucleus of the stria terminalis",
@@ -694,7 +694,7 @@
     "log10_inclusive_count_p1": 3.0976,
     "norm_inclusive_count": 0.4571,
     "log10_exclusive_count_p1": 3.0976,
-    "norm_exclusive_count": 0.4677
+    "norm_exclusive_count": 0.4688
   },
   {
     "region": "lateral septum",
@@ -711,7 +711,7 @@
     "log10_inclusive_count_p1": 2.6812,
     "norm_inclusive_count": 0.3262,
     "log10_exclusive_count_p1": 2.6812,
-    "norm_exclusive_count": 0.3338
+    "norm_exclusive_count": 0.3346
   },
   {
     "region": "medial septum",
@@ -728,7 +728,7 @@
     "log10_inclusive_count_p1": 2.6656,
     "norm_inclusive_count": 0.3213,
     "log10_exclusive_count_p1": 2.6656,
-    "norm_exclusive_count": 0.3287
+    "norm_exclusive_count": 0.3295
   },
   {
     "region": "septal nuclei",
@@ -745,7 +745,7 @@
     "log10_inclusive_count_p1": 2.3945,
     "norm_inclusive_count": 0.2361,
     "log10_exclusive_count_p1": 2.3945,
-    "norm_exclusive_count": 0.2415
+    "norm_exclusive_count": 0.2421
   },
   {
     "region": "basal forebrain",
@@ -762,7 +762,7 @@
     "log10_inclusive_count_p1": 3.1942,
     "norm_inclusive_count": 0.4875,
     "log10_exclusive_count_p1": 3.1942,
-    "norm_exclusive_count": 0.4988
+    "norm_exclusive_count": 0.5
   },
   {
     "region": "diagonal band",
@@ -779,7 +779,7 @@
     "log10_inclusive_count_p1": 2.1987,
     "norm_inclusive_count": 0.1745,
     "log10_exclusive_count_p1": 2.1987,
-    "norm_exclusive_count": 0.1786
+    "norm_exclusive_count": 0.179
   },
   {
     "region": "claustrum",
@@ -796,7 +796,7 @@
     "log10_inclusive_count_p1": 2.7016,
     "norm_inclusive_count": 0.3326,
     "log10_exclusive_count_p1": 2.7016,
-    "norm_exclusive_count": 0.3403
+    "norm_exclusive_count": 0.3411
   },
   {
     "region": "striatum",
@@ -813,7 +813,7 @@
     "log10_inclusive_count_p1": 4.2976,
     "norm_inclusive_count": 0.8343,
     "log10_exclusive_count_p1": 4.1423,
-    "norm_exclusive_count": 0.8037
+    "norm_exclusive_count": 0.8056
   },
   {
     "region": "dorsal striatum",
@@ -830,7 +830,7 @@
     "log10_inclusive_count_p1": 3.2953,
     "norm_inclusive_count": 0.5193,
     "log10_exclusive_count_p1": 3.2953,
-    "norm_exclusive_count": 0.5313
+    "norm_exclusive_count": 0.5326
   },
   {
     "region": "ventral striatum",
@@ -847,7 +847,7 @@
     "log10_inclusive_count_p1": 3.3953,
     "norm_inclusive_count": 0.5507,
     "log10_exclusive_count_p1": 3.3953,
-    "norm_exclusive_count": 0.5634
+    "norm_exclusive_count": 0.5648
   },
   {
     "region": "nucleus accumbens",
@@ -864,7 +864,7 @@
     "log10_inclusive_count_p1": 3.9595,
     "norm_inclusive_count": 0.728,
     "log10_exclusive_count_p1": 3.9595,
-    "norm_exclusive_count": 0.7449
+    "norm_exclusive_count": 0.7467
   },
   {
     "region": "caudate nucleus",
@@ -881,7 +881,7 @@
     "log10_inclusive_count_p1": 3.4625,
     "norm_inclusive_count": 0.5718,
     "log10_exclusive_count_p1": 3.4625,
-    "norm_exclusive_count": 0.585
+    "norm_exclusive_count": 0.5865
   },
   {
     "region": "putamen",
@@ -898,7 +898,7 @@
     "log10_inclusive_count_p1": 3.8739,
     "norm_inclusive_count": 0.7011,
     "log10_exclusive_count_p1": 3.8739,
-    "norm_exclusive_count": 0.7173
+    "norm_exclusive_count": 0.7191
   },
   {
     "region": "globus pallidus",
@@ -915,7 +915,7 @@
     "log10_inclusive_count_p1": 3.5689,
     "norm_inclusive_count": 0.6052,
     "log10_exclusive_count_p1": 3.5689,
-    "norm_exclusive_count": 0.6192
+    "norm_exclusive_count": 0.6207
   },
   {
     "region": "ventral pallidum",
@@ -932,7 +932,7 @@
     "log10_inclusive_count_p1": 2.5933,
     "norm_inclusive_count": 0.2986,
     "log10_exclusive_count_p1": 2.5933,
-    "norm_exclusive_count": 0.3055
+    "norm_exclusive_count": 0.3062
   },
   {
     "region": "subthalamic nucleus",
@@ -949,7 +949,7 @@
     "log10_inclusive_count_p1": 3.5925,
     "norm_inclusive_count": 0.6127,
     "log10_exclusive_count_p1": 3.5925,
-    "norm_exclusive_count": 0.6268
+    "norm_exclusive_count": 0.6284
   },
   {
     "region": "thalamus",
@@ -966,7 +966,7 @@
     "log10_inclusive_count_p1": 4.2494,
     "norm_inclusive_count": 0.8192,
     "log10_exclusive_count_p1": 4.2129,
-    "norm_exclusive_count": 0.8264
+    "norm_exclusive_count": 0.8284
   },
   {
     "region": "mediodorsal thalamus",
@@ -983,7 +983,7 @@
     "log10_inclusive_count_p1": 2.5988,
     "norm_inclusive_count": 0.3003,
     "log10_exclusive_count_p1": 2.5988,
-    "norm_exclusive_count": 0.3072
+    "norm_exclusive_count": 0.308
   },
   {
     "region": "anterior thalamic nuclei",
@@ -1000,7 +1000,7 @@
     "log10_inclusive_count_p1": 2.4265,
     "norm_inclusive_count": 0.2461,
     "log10_exclusive_count_p1": 2.4265,
-    "norm_exclusive_count": 0.2518
+    "norm_exclusive_count": 0.2525
   },
   {
     "region": "pulvinar",
@@ -1017,7 +1017,7 @@
     "log10_inclusive_count_p1": 2.9274,
     "norm_inclusive_count": 0.4036,
     "log10_exclusive_count_p1": 2.9274,
-    "norm_exclusive_count": 0.4129
+    "norm_exclusive_count": 0.4139
   },
   {
     "region": "lateral geniculate nucleus",
@@ -1034,7 +1034,7 @@
     "log10_inclusive_count_p1": 3.0145,
     "norm_inclusive_count": 0.431,
     "log10_exclusive_count_p1": 3.0145,
-    "norm_exclusive_count": 0.441
+    "norm_exclusive_count": 0.442
   },
   {
     "region": "medial geniculate nucleus",
@@ -1051,7 +1051,7 @@
     "log10_inclusive_count_p1": 2.0253,
     "norm_inclusive_count": 0.12,
     "log10_exclusive_count_p1": 2.0253,
-    "norm_exclusive_count": 0.1228
+    "norm_exclusive_count": 0.1231
   },
   {
     "region": "reticular thalamic nucleus",
@@ -1068,7 +1068,7 @@
     "log10_inclusive_count_p1": 2.6335,
     "norm_inclusive_count": 0.3112,
     "log10_exclusive_count_p1": 2.6335,
-    "norm_exclusive_count": 0.3184
+    "norm_exclusive_count": 0.3192
   },
   {
     "region": "hypothalamus",
@@ -1085,7 +1085,7 @@
     "log10_inclusive_count_p1": 4.292,
     "norm_inclusive_count": 0.8325,
     "log10_exclusive_count_p1": 4.2132,
-    "norm_exclusive_count": 0.8265
+    "norm_exclusive_count": 0.8285
   },
   {
     "region": "arcuate nucleus",
@@ -1102,7 +1102,7 @@
     "log10_inclusive_count_p1": 3.2869,
     "norm_inclusive_count": 0.5166,
     "log10_exclusive_count_p1": 3.2869,
-    "norm_exclusive_count": 0.5286
+    "norm_exclusive_count": 0.5298
   },
   {
     "region": "paraventricular nucleus",
@@ -1119,7 +1119,7 @@
     "log10_inclusive_count_p1": 3.47,
     "norm_inclusive_count": 0.5741,
     "log10_exclusive_count_p1": 3.47,
-    "norm_exclusive_count": 0.5874
+    "norm_exclusive_count": 0.5889
   },
   {
     "region": "suprachiasmatic nucleus",
@@ -1136,7 +1136,7 @@
     "log10_inclusive_count_p1": 3.3255,
     "norm_inclusive_count": 0.5287,
     "log10_exclusive_count_p1": 3.3255,
-    "norm_exclusive_count": 0.541
+    "norm_exclusive_count": 0.5423
   },
   {
     "region": "mammillary bodies",
@@ -1153,7 +1153,7 @@
     "log10_inclusive_count_p1": 2.5378,
     "norm_inclusive_count": 0.2811,
     "log10_exclusive_count_p1": 2.5378,
-    "norm_exclusive_count": 0.2876
+    "norm_exclusive_count": 0.2883
   },
   {
     "region": "habenula",
@@ -1170,7 +1170,7 @@
     "log10_inclusive_count_p1": 3.1414,
     "norm_inclusive_count": 0.4709,
     "log10_exclusive_count_p1": 3.1414,
-    "norm_exclusive_count": 0.4818
+    "norm_exclusive_count": 0.4829
   },
   {
     "region": "pineal gland",
@@ -1187,7 +1187,7 @@
     "log10_inclusive_count_p1": 3.2819,
     "norm_inclusive_count": 0.515,
     "log10_exclusive_count_p1": 3.2819,
-    "norm_exclusive_count": 0.527
+    "norm_exclusive_count": 0.5282
   },
   {
     "region": "midbrain",
@@ -1204,7 +1204,7 @@
     "log10_inclusive_count_p1": 4.0022,
     "norm_inclusive_count": 0.7414,
     "log10_exclusive_count_p1": 3.8536,
-    "norm_exclusive_count": 0.7108
+    "norm_exclusive_count": 0.7125
   },
   {
     "region": "substantia nigra",
@@ -1221,7 +1221,7 @@
     "log10_inclusive_count_p1": 3.9829,
     "norm_inclusive_count": 0.7354,
     "log10_exclusive_count_p1": 3.9829,
-    "norm_exclusive_count": 0.7524
+    "norm_exclusive_count": 0.7542
   },
   {
     "region": "ventral tegmental area",
@@ -1238,7 +1238,7 @@
     "log10_inclusive_count_p1": 3.6416,
     "norm_inclusive_count": 0.6281,
     "log10_exclusive_count_p1": 3.6416,
-    "norm_exclusive_count": 0.6426
+    "norm_exclusive_count": 0.6442
   },
   {
     "region": "superior colliculus",
@@ -1255,7 +1255,7 @@
     "log10_inclusive_count_p1": 3.1602,
     "norm_inclusive_count": 0.4768,
     "log10_exclusive_count_p1": 3.1602,
-    "norm_exclusive_count": 0.4878
+    "norm_exclusive_count": 0.489
   },
   {
     "region": "inferior colliculus",
@@ -1272,7 +1272,7 @@
     "log10_inclusive_count_p1": 3.0257,
     "norm_inclusive_count": 0.4345,
     "log10_exclusive_count_p1": 3.0257,
-    "norm_exclusive_count": 0.4446
+    "norm_exclusive_count": 0.4456
   },
   {
     "region": "red nucleus",
@@ -1289,7 +1289,7 @@
     "log10_inclusive_count_p1": 2.7642,
     "norm_inclusive_count": 0.3523,
     "log10_exclusive_count_p1": 2.7642,
-    "norm_exclusive_count": 0.3604
+    "norm_exclusive_count": 0.3613
   },
   {
     "region": "periaqueductal gray",
@@ -1306,7 +1306,7 @@
     "log10_inclusive_count_p1": 3.3222,
     "norm_inclusive_count": 0.5277,
     "log10_exclusive_count_p1": 3.3222,
-    "norm_exclusive_count": 0.5399
+    "norm_exclusive_count": 0.5412
   },
   {
     "region": "interpeduncular nucleus",
@@ -1323,7 +1323,7 @@
     "log10_inclusive_count_p1": 2.233,
     "norm_inclusive_count": 0.1853,
     "log10_exclusive_count_p1": 2.233,
-    "norm_exclusive_count": 0.1896
+    "norm_exclusive_count": 0.1901
   },
   {
     "region": "brainstem",
@@ -1340,7 +1340,7 @@
     "log10_inclusive_count_p1": 4.4093,
     "norm_inclusive_count": 0.8694,
     "log10_exclusive_count_p1": 4.3299,
-    "norm_exclusive_count": 0.864
+    "norm_exclusive_count": 0.8661
   },
   {
     "region": "pons",
@@ -1357,7 +1357,7 @@
     "log10_inclusive_count_p1": 3.5587,
     "norm_inclusive_count": 0.602,
     "log10_exclusive_count_p1": 3.5553,
-    "norm_exclusive_count": 0.6149
+    "norm_exclusive_count": 0.6164
   },
   {
     "region": "pontine nuclei",
@@ -1374,7 +1374,7 @@
     "log10_inclusive_count_p1": 2.2405,
     "norm_inclusive_count": 0.1877,
     "log10_exclusive_count_p1": 2.2405,
-    "norm_exclusive_count": 0.192
+    "norm_exclusive_count": 0.1925
   },
   {
     "region": "medulla oblongata",
@@ -1391,7 +1391,7 @@
     "log10_inclusive_count_p1": 3.1239,
     "norm_inclusive_count": 0.4653,
     "log10_exclusive_count_p1": 3.0938,
-    "norm_exclusive_count": 0.4664
+    "norm_exclusive_count": 0.4676
   },
   {
     "region": "nucleus tractus solitarius",
@@ -1408,7 +1408,7 @@
     "log10_inclusive_count_p1": 3.1461,
     "norm_inclusive_count": 0.4724,
     "log10_exclusive_count_p1": 3.1461,
-    "norm_exclusive_count": 0.4833
+    "norm_exclusive_count": 0.4844
   },
   {
     "region": "area postrema",
@@ -1425,7 +1425,7 @@
     "log10_inclusive_count_p1": 2.7627,
     "norm_inclusive_count": 0.3518,
     "log10_exclusive_count_p1": 2.7627,
-    "norm_exclusive_count": 0.36
+    "norm_exclusive_count": 0.3608
   },
   {
     "region": "parabrachial nucleus",
@@ -1442,7 +1442,7 @@
     "log10_inclusive_count_p1": 2.7917,
     "norm_inclusive_count": 0.3609,
     "log10_exclusive_count_p1": 2.7917,
-    "norm_exclusive_count": 0.3693
+    "norm_exclusive_count": 0.3702
   },
   {
     "region": "raphe nuclei",
@@ -1459,7 +1459,7 @@
     "log10_inclusive_count_p1": 3.238,
     "norm_inclusive_count": 0.5012,
     "log10_exclusive_count_p1": 2.7924,
-    "norm_exclusive_count": 0.3695
+    "norm_exclusive_count": 0.3704
   },
   {
     "region": "dorsal raphe nucleus",
@@ -1476,7 +1476,7 @@
     "log10_inclusive_count_p1": 3.1772,
     "norm_inclusive_count": 0.4821,
     "log10_exclusive_count_p1": 3.1772,
-    "norm_exclusive_count": 0.4933
+    "norm_exclusive_count": 0.4945
   },
   {
     "region": "locus coeruleus",
@@ -1493,7 +1493,7 @@
     "log10_inclusive_count_p1": 3.4768,
     "norm_inclusive_count": 0.5763,
     "log10_exclusive_count_p1": 3.4768,
-    "norm_exclusive_count": 0.5896
+    "norm_exclusive_count": 0.5911
   },
   {
     "region": "cerebellum",
@@ -1510,7 +1510,7 @@
     "log10_inclusive_count_p1": 4.3713,
     "norm_inclusive_count": 0.8575,
     "log10_exclusive_count_p1": 4.3385,
-    "norm_exclusive_count": 0.8667
+    "norm_exclusive_count": 0.8688
   },
   {
     "region": "cerebellar cortex",
@@ -1527,7 +1527,7 @@
     "log10_inclusive_count_p1": 3.1741,
     "norm_inclusive_count": 0.4811,
     "log10_exclusive_count_p1": 3.1741,
-    "norm_exclusive_count": 0.4923
+    "norm_exclusive_count": 0.4935
   },
   {
     "region": "cerebellar vermis",
@@ -1544,7 +1544,7 @@
     "log10_inclusive_count_p1": 2.9652,
     "norm_inclusive_count": 0.4155,
     "log10_exclusive_count_p1": 2.9652,
-    "norm_exclusive_count": 0.4251
+    "norm_exclusive_count": 0.4261
   },
   {
     "region": "cerebellar nuclei",
@@ -1561,7 +1561,7 @@
     "log10_inclusive_count_p1": 2.7952,
     "norm_inclusive_count": 0.362,
     "log10_exclusive_count_p1": 2.7634,
-    "norm_exclusive_count": 0.3602
+    "norm_exclusive_count": 0.3611
   },
   {
     "region": "dentate nucleus (cerebellar)",
@@ -1578,7 +1578,7 @@
     "log10_inclusive_count_p1": 2.1703,
     "norm_inclusive_count": 0.1656,
     "log10_exclusive_count_p1": 2.1703,
-    "norm_exclusive_count": 0.1694
+    "norm_exclusive_count": 0.1698
   },
   {
     "region": "fastigial nucleus",
@@ -1595,7 +1595,7 @@
     "log10_inclusive_count_p1": 2.0492,
     "norm_inclusive_count": 0.1275,
     "log10_exclusive_count_p1": 2.0492,
-    "norm_exclusive_count": 0.1305
+    "norm_exclusive_count": 0.1308
   },
   {
     "region": "interposed nucleus",
@@ -1629,7 +1629,7 @@
     "log10_inclusive_count_p1": 2.1987,
     "norm_inclusive_count": 0.1745,
     "log10_exclusive_count_p1": 2.1987,
-    "norm_exclusive_count": 0.1786
+    "norm_exclusive_count": 0.179
   },
   {
     "region": "olfactory bulb",
@@ -1646,7 +1646,7 @@
     "log10_inclusive_count_p1": 3.5991,
     "norm_inclusive_count": 0.6147,
     "log10_exclusive_count_p1": 3.5991,
-    "norm_exclusive_count": 0.629
+    "norm_exclusive_count": 0.6305
   },
   {
     "region": "olfactory tubercle",
@@ -1663,6 +1663,6 @@
     "log10_inclusive_count_p1": 2.179,
     "norm_inclusive_count": 0.1683,
     "log10_exclusive_count_p1": 2.179,
-    "norm_exclusive_count": 0.1722
+    "norm_exclusive_count": 0.1726
   }
 ]

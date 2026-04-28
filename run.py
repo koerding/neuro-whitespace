@@ -60,6 +60,26 @@ NCBI_ESEARCH = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
 DATE_FILTER = '("2015"[PDAT] : "2025"[PDAT])'
 TOOL_NAME = "brain_region_prevalence"
 
+# Hippocampal-subfield anchors used to disambiguate bare CA1 / CA2 / CA3.
+# A naive "CAn"[tiab] AND hippocamp* leaks calcium-signaling papers,
+# because PubMed normalizes Ca2+, Ca(2+) tokens to overlap with CA2.
+# Phrase-only matching is the other extreme and undercounts legitimate
+# subfield papers that say "Ca2+ imaging in CA2 of hippocampus" without
+# matching one of our exact phrases. The compromise: require the bare
+# abbreviation AND at least one piece of subfield-architecture vocabulary
+# that essentially never appears in unrelated calcium-signaling papers
+# (specific layers, projections, fibre systems, place cells, social
+# memory). Verified empirically: this lifts CA2 from 212 (phrase-only)
+# to ~1,000, vs. ~3,100 for the contaminated bare-AND-hippocamp* form.
+CA_SUBFIELD_ANCHORS = (
+    '"place cell" OR "place cells" OR "social memory" '
+    'OR "pyramidal layer" OR "stratum pyramidale" '
+    'OR "stratum radiatum" OR "stratum oriens" '
+    'OR "dentate gyrus" OR "schaffer collateral" OR "schaffer collaterals" '
+    'OR "mossy fiber" OR "mossy fibers" OR "perforant path" '
+    'OR "hippocampal subfield" OR "hippocampal subfields"'
+)
+
 # Each region: (name, category, parent, phrases, ambigs)
 #   phrases : list[str]  unambiguous phrases, searched as "phrase"[tiab]
 #   ambigs  : list[(abbr, ctx_OR)]  abbreviation searched as
@@ -132,21 +152,26 @@ REGIONS = [
     ("piriform cortex", "limbic cortex", None, ["piriform cortex"], []),
 
     # ---- Hippocampal formation ----
-    # Bare CA1 / CA2 / CA3 abbreviations are intentionally excluded:
-    # PubMed normalizes "Ca2+", "Ca(2+)" tokens to overlap with the
-    # CAn abbreviations, so any AND-context filter still leaks
-    # calcium-signaling literature in. Phrase-only is the safe choice.
+    # CA1 / CA2 / CA3: phrase forms PLUS the bare abbreviation guarded by
+    # subfield-architecture anchors (see CA_SUBFIELD_ANCHORS). The bare
+    # term alone leaks Ca2+ papers; phrase-only undercounts legitimate
+    # papers that say "Ca2+ imaging in CA2 of mouse hippocampus" without
+    # matching one of our canned phrases.
     ("hippocampus", "hippocampal", None,
         ["hippocampus", "hippocampal formation"], []),
     ("dentate gyrus", "hippocampal", "hippocampus", ["dentate gyrus"], []),
     ("CA1", "hippocampal", "hippocampus",
         ["hippocampal CA1", "CA1 region", "CA1 pyramidal",
-         "CA1 neurons", "CA1 of the hippocampus"], []),
+         "CA1 neurons", "CA1 of the hippocampus", "CA1 area", "CA1 subfield"],
+        [("CA1", CA_SUBFIELD_ANCHORS)]),
     ("CA2", "hippocampal", "hippocampus",
-        ["hippocampal CA2", "CA2 region", "CA2 of the hippocampus"], []),
+        ["hippocampal CA2", "CA2 region", "CA2 of the hippocampus",
+         "CA2 pyramidal", "CA2 neurons", "CA2 area", "CA2 subfield"],
+        [("CA2", CA_SUBFIELD_ANCHORS)]),
     ("CA3", "hippocampal", "hippocampus",
         ["hippocampal CA3", "CA3 region", "CA3 pyramidal",
-         "CA3 neurons", "CA3 of the hippocampus"], []),
+         "CA3 neurons", "CA3 of the hippocampus", "CA3 area", "CA3 subfield"],
+        [("CA3", CA_SUBFIELD_ANCHORS)]),
     ("subiculum", "hippocampal", "hippocampus", ["subiculum"], []),
 
     # ---- Amygdala ----
