@@ -67,84 +67,86 @@ TOOL_NAME = "brain_region_prevalence"
 #   parent  : name of broader region, or None
 REGIONS = [
     # ---- Frontal / prefrontal cortex ----
-    ("prefrontal cortex", "frontal cortex", None,
+    # Hierarchy: frontal cortex > {prefrontal cortex, motor cortex};
+    # prefrontal cortex > {mPFC, dlPFC, vmPFC, OFC};
+    # motor cortex > {premotor cortex, supplementary motor area}.
+    ("prefrontal cortex", "frontal cortex", "frontal cortex",
         ["prefrontal cortex"],
-        [("PFC", "cortex OR cortical OR prefrontal")]),
+        [("PFC", "prefrontal")]),
     ("medial prefrontal cortex", "frontal cortex", "prefrontal cortex",
         ["medial prefrontal cortex"],
-        [("mPFC", "cortex OR cortical OR prefrontal")]),
+        [("mPFC", "prefrontal")]),
     ("dorsolateral prefrontal cortex", "frontal cortex", "prefrontal cortex",
         ["dorsolateral prefrontal cortex"],
-        [("dlPFC", "cortex OR cortical OR prefrontal"),
-         ("DLPFC", "cortex OR cortical OR prefrontal")]),
+        [("dlPFC", "prefrontal"), ("DLPFC", "prefrontal")]),
     ("ventromedial prefrontal cortex", "frontal cortex", "prefrontal cortex",
         ["ventromedial prefrontal cortex"],
-        [("vmPFC", "cortex OR cortical OR prefrontal"),
-         ("VMPFC", "cortex OR cortical OR prefrontal")]),
+        [("vmPFC", "prefrontal"), ("VMPFC", "prefrontal")]),
     ("orbitofrontal cortex", "frontal cortex", "prefrontal cortex",
-        ["orbitofrontal cortex", "orbital frontal cortex"],
-        [("OFC", "orbital OR frontal OR prefrontal OR cortex")]),
+        ["orbitofrontal cortex", "orbital frontal cortex"], []),
     ("frontal cortex", "frontal cortex", None, ["frontal cortex"], []),
-    ("motor cortex", "frontal cortex", None,
-        ["motor cortex", "primary motor cortex"],
-        [("M1", "motor OR cortex")]),
+    ("motor cortex", "frontal cortex", "frontal cortex",
+        ["motor cortex", "primary motor cortex"], []),
     ("premotor cortex", "frontal cortex", "motor cortex",
         ["premotor cortex"], []),
     ("supplementary motor area", "frontal cortex", "motor cortex",
-        ["supplementary motor area"], [("SMA", "motor OR cortex")]),
+        ["supplementary motor area"], []),
 
     # ---- Sensory / parietal / temporal / occipital ----
+    # Hierarchy: occipital cortex > visual cortex > primary visual cortex.
     ("somatosensory cortex", "sensory cortex", None,
-        ["somatosensory cortex", "primary somatosensory cortex"],
-        [("S1", "somatosensory OR cortex OR barrel")]),
+        ["somatosensory cortex", "primary somatosensory cortex"], []),
     ("parietal cortex", "sensory cortex", None, ["parietal cortex"], []),
     ("posterior parietal cortex", "sensory cortex", "parietal cortex",
-        ["posterior parietal cortex"], [("PPC", "parietal OR cortex")]),
+        ["posterior parietal cortex"], [("PPC", "parietal")]),
     ("auditory cortex", "sensory cortex", None,
-        ["auditory cortex", "primary auditory cortex"],
-        [("A1", "auditory OR cortex")]),
-    ("visual cortex", "sensory cortex", None, ["visual cortex"], []),
+        ["auditory cortex", "primary auditory cortex"], []),
+    ("visual cortex", "sensory cortex", "occipital cortex",
+        ["visual cortex"], []),
     ("primary visual cortex", "sensory cortex", "visual cortex",
-        ["primary visual cortex", "striate cortex"],
-        [("V1", "visual OR cortex OR cortical")]),
+        ["primary visual cortex", "striate cortex"], []),
     ("occipital cortex", "sensory cortex", None, ["occipital cortex"], []),
     ("temporal cortex", "sensory cortex", None, ["temporal cortex"], []),
     ("inferior temporal cortex", "sensory cortex", "temporal cortex",
         ["inferior temporal cortex", "inferotemporal cortex"], []),
     ("superior temporal gyrus", "sensory cortex", "temporal cortex",
-        ["superior temporal gyrus"], [("STG", "temporal OR cortex OR gyrus")]),
+        ["superior temporal gyrus"], []),
     ("fusiform gyrus", "sensory cortex", None, ["fusiform gyrus"], []),
     ("angular gyrus", "sensory cortex", None, ["angular gyrus"], []),
     ("supramarginal gyrus", "sensory cortex", None, ["supramarginal gyrus"], []),
 
     # ---- Limbic / cingulate / insular cortex ----
-    ("anterior cingulate cortex", "limbic cortex", None,
-        ["anterior cingulate cortex"], [("ACC", "cingulate OR cortex")]),
-    ("posterior cingulate cortex", "limbic cortex", None,
-        ["posterior cingulate cortex"], [("PCC", "cingulate OR cortex")]),
+    # Hierarchy: cingulate cortex > {ACC, PCC}.
+    ("anterior cingulate cortex", "limbic cortex", "cingulate cortex",
+        ["anterior cingulate cortex"], [("ACC", "cingulate")]),
+    ("posterior cingulate cortex", "limbic cortex", "cingulate cortex",
+        ["posterior cingulate cortex"], [("PCC", "cingulate")]),
     ("cingulate cortex", "limbic cortex", None, ["cingulate cortex"], []),
     ("retrosplenial cortex", "limbic cortex", None,
-        ["retrosplenial cortex"], [("RSC", "retrosplenial OR cortex")]),
+        ["retrosplenial cortex"], [("RSC", "retrosplenial")]),
     ("insular cortex", "limbic cortex", None, ["insular cortex", "insula"], []),
     ("entorhinal cortex", "limbic cortex", None,
-        ["entorhinal cortex"], [("EC", "entorhinal OR cortex")]),
+        ["entorhinal cortex"], [("EC", "entorhinal")]),
     ("perirhinal cortex", "limbic cortex", None, ["perirhinal cortex"], []),
     ("parahippocampal cortex", "limbic cortex", None, ["parahippocampal cortex"], []),
     ("piriform cortex", "limbic cortex", None, ["piriform cortex"], []),
 
     # ---- Hippocampal formation ----
+    # Bare CA1 / CA2 / CA3 abbreviations are intentionally excluded:
+    # PubMed normalizes "Ca2+", "Ca(2+)" tokens to overlap with the
+    # CAn abbreviations, so any AND-context filter still leaks
+    # calcium-signaling literature in. Phrase-only is the safe choice.
     ("hippocampus", "hippocampal", None,
         ["hippocampus", "hippocampal formation"], []),
     ("dentate gyrus", "hippocampal", "hippocampus", ["dentate gyrus"], []),
     ("CA1", "hippocampal", "hippocampus",
-        ["hippocampal CA1", "CA1 region", "CA1 pyramidal"],
-        [("CA1", "hippocamp* OR pyramidal")]),
+        ["hippocampal CA1", "CA1 region", "CA1 pyramidal",
+         "CA1 neurons", "CA1 of the hippocampus"], []),
     ("CA2", "hippocampal", "hippocampus",
-        ["hippocampal CA2", "CA2 region"],
-        [("CA2", "hippocamp* OR pyramidal")]),
+        ["hippocampal CA2", "CA2 region", "CA2 of the hippocampus"], []),
     ("CA3", "hippocampal", "hippocampus",
-        ["hippocampal CA3", "CA3 region", "CA3 pyramidal"],
-        [("CA3", "hippocamp* OR pyramidal OR mossy")]),
+        ["hippocampal CA3", "CA3 region", "CA3 pyramidal",
+         "CA3 neurons", "CA3 of the hippocampus"], []),
     ("subiculum", "hippocampal", "hippocampus", ["subiculum"], []),
 
     # ---- Amygdala ----
@@ -209,7 +211,7 @@ REGIONS = [
         [("PVN", "hypothalam* OR paraventricular")]),
     ("suprachiasmatic nucleus", "hypothalamus", "hypothalamus",
         ["suprachiasmatic nucleus"],
-        [("SCN", "circadian OR suprachiasmatic OR nucleus")]),
+        [("SCN", "circadian OR suprachiasmatic")]),
     ("mammillary bodies", "hypothalamus", "hypothalamus",
         ["mammillary bodies", "mammillary body", "mamillary bodies"], []),
 
@@ -218,7 +220,9 @@ REGIONS = [
     ("pineal gland", "epithalamus", None, ["pineal gland"], []),
 
     # ---- Midbrain ----
-    ("midbrain", "midbrain", None, ["midbrain", "mesencephalon"], []),
+    # midbrain is itself a child of brainstem, so brainstem's exclusive
+    # count transitively excludes substantia nigra, VTA, etc.
+    ("midbrain", "midbrain", "brainstem", ["midbrain", "mesencephalon"], []),
     ("substantia nigra", "midbrain", "midbrain",
         ["substantia nigra"],
         [("SNc", "nigra OR dopamin*"), ("SNr", "nigra OR reticulata")]),
@@ -226,12 +230,12 @@ REGIONS = [
         ["ventral tegmental area"],
         [("VTA", "tegmental OR midbrain OR dopamin* OR mesolimbic")]),
     ("superior colliculus", "midbrain", "midbrain",
-        ["superior colliculus"], [("SC", "colliculus OR tectum OR superior")]),
+        ["superior colliculus"], [("SC", "colliculus OR tectum")]),
     ("inferior colliculus", "midbrain", "midbrain", ["inferior colliculus"], []),
     ("red nucleus", "midbrain", "midbrain", ["red nucleus", "nucleus ruber"], []),
     ("periaqueductal gray", "midbrain", "midbrain",
         ["periaqueductal gray", "periaqueductal grey"],
-        [("PAG", "periaqueductal OR midbrain OR gray OR grey")]),
+        [("PAG", "periaqueductal")]),
     ("interpeduncular nucleus", "midbrain", "midbrain",
         ["interpeduncular nucleus"], []),
 
@@ -318,15 +322,47 @@ def descendants(name: str, by_parent: dict) -> list:
     `by_parent` maps a parent region name to the list of region tuples
     whose `parent` field equals that name. Used to assemble the NOT
     clause for an umbrella term: every descendant must be subtracted,
-    not just direct children, so e.g. brainstem's exclusive count also
-    excludes substantia nigra (a grandchild).
+    not just direct children, so brainstem's exclusive count also
+    excludes substantia nigra (a grandchild via midbrain).
+
+    A `visited` set guards against cycles created by accidental
+    parent/child loops in REGIONS — without it a typo could make the
+    function spin forever.
     """
     out, stack = [], list(by_parent.get(name, []))
+    visited = {name}
     while stack:
         r = stack.pop()
+        if r[0] in visited:
+            continue
+        visited.add(r[0])
         out.append(r)
         stack.extend(by_parent.get(r[0], []))
     return out
+
+
+def validate_regions(regions):
+    """Sanity-check the REGIONS table at startup.
+
+    Catches the two failure modes that produce silent, wrong results
+    instead of an obvious crash: duplicated region names (which collide
+    in the by_parent dict), and parent strings that don't reference any
+    real region (which silently disable the exclusive logic for that
+    branch).
+    """
+    names = [r[0] for r in regions]
+    seen = set()
+    dups = []
+    for n in names:
+        if n in seen:
+            dups.append(n)
+        seen.add(n)
+    if dups:
+        raise ValueError(f"duplicate region names: {dups}")
+    nameset = set(names)
+    bad = [(r[0], r[2]) for r in regions if r[2] is not None and r[2] not in nameset]
+    if bad:
+        raise ValueError(f"unknown parent references: {bad}")
 
 
 def build_queries(regions):
@@ -341,6 +377,7 @@ def build_queries(regions):
     to the inclusive query, so downstream code can treat the two columns
     uniformly without special-casing.
     """
+    validate_regions(regions)
     by_parent = defaultdict(list)
     for r in regions:
         if r[2]:

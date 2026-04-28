@@ -17,29 +17,36 @@ Top 15 by inclusive count:
 
 | Rank | Region                       | Inclusive | Exclusive of subregions |
 |-----:|------------------------------|----------:|------------------------:|
-| 1    | hippocampus                  |    66,791 |                  53,108 |
-| 2    | prefrontal cortex            |    37,495 |                  18,440 |
-| 3    | brainstem                    |    25,661 |                  22,885 |
+| 1    | hippocampus                  |    66,791 |                  56,595 |
+| 2    | prefrontal cortex            |    37,338 |                  18,339 |
+| 3    | brainstem                    |    25,661 |                  21,374 |
 | 4    | cerebellum                   |    23,511 |                  21,799 |
 | 5    | amygdala                     |    20,400 |                  16,310 |
 | 6    | striatum                     |    19,841 |                  13,876 |
 | 7    | hypothalamus                 |    19,588 |                  16,336 |
 | 8    | thalamus                     |    17,757 |                  16,325 |
-| 9    | motor cortex                 |    13,527 |                  12,270 |
-| 10   | cingulate cortex             |    13,031 |                  13,031 |
-| 11   | insular cortex               |    12,723 |                  12,723 |
-| 12   | CA1                          |    10,619 |                  10,619 |
-| 13   | midbrain                     |    10,049 |                   7,133 |
-| 14   | substantia nigra             |     9,612 |                   9,612 |
-| 15   | anterior cingulate cortex    |     9,357 |                   9,357 |
+| 9    | cingulate cortex             |    13,031 |                   1,718 |
+| 10   | insular cortex               |    12,723 |                  12,723 |
+| 11   | motor cortex                 |    12,005 |                  10,939 |
+| 12   | midbrain                     |    10,049 |                   7,137 |
+| 13   | substantia nigra             |     9,612 |                   9,612 |
+| 14   | visual cortex                |     9,247 |                   6,116 |
+| 15   | nucleus accumbens            |     9,109 |                   9,109 |
+
+The most striking inclusive-vs-exclusive gap is **cingulate cortex**:
+13,031 inclusive papers, but only 1,718 of those don't already mention
+ACC or PCC. The umbrella term is almost never used on its own.
 
 Whitespace candidates (under ~300 papers across the whole decade):
 
 - Cerebellar deep nuclei — interposed (43), fastigial (111), dentate
   (cerebellar) (147)
-- Diagonal band (157), septal nuclei (247), olfactory tubercle (150)
+- Diagonal band (157), septal nuclei (247), olfactory tubercle (150),
+  flocculus (157)
 - Medial geniculate (105), interpeduncular (170), pontine nuclei (173)
 - Anterior thalamic nuclei (266), mediodorsal thalamus (396)
+- **CA2 hippocampal subfield (212)** — historically tiny relative to
+  CA1 (5,952) and CA3 (1,462)
 
 The full ranking is in `regions.csv`.
 
@@ -99,16 +106,23 @@ scientific importance, citation impact, or anatomical ground truth.
 
 Specific things to keep in mind:
 
-- **CA1 / CA2 / CA3.** PubMed normalizes calcium-signaling tokens like
-  `Ca2+`, so an `AND (hippocamp* OR pyramidal)` disambiguation still lets
-  some calcium papers through. The phrase-only forms ("hippocampal CA1",
-  "CA1 pyramidal") are tighter — see `REGIONS` in `run.py` to swap.
+- **CA1 / CA2 / CA3 are phrase-only.** PubMed normalizes calcium tokens
+  like `Ca2+`, so any `"CAn"[tiab] AND ...` disambiguation still lets
+  calcium-signaling papers through. The pipeline therefore matches only
+  multi-word forms like "hippocampal CA1" or "CA1 pyramidal". This
+  undercounts papers that say "CA1" without a partner word, but the
+  alternative was a CA2 count dominated by `Ca2+` mentions.
 - **Subdivisions can co-occur.** A paper mentioning both CA1 and CA3
   counts toward each. The exclusive-of-subdivisions logic only operates
   parent→child, not sibling→sibling.
-- **Synonym coverage is selective, not exhaustive.** Major abbreviations
-  are included with disambiguation; many minor ones are not.
+- **Some abbreviations are intentionally omitted.** Heavily ambiguous
+  short tokens (M1, S1, A1, V1, OFC, STG, SMA, …) are not searched in
+  bare form — the canonical phrases ("primary motor cortex", etc.) carry
+  the load. This trades coverage for precision.
 - **Title/abstract only.** Full-text mentions are not considered.
+- **Counts drift.** PubMed grows daily and re-indexes occasionally, so a
+  re-run will produce slightly different numbers. The CSV records the
+  query date.
 
 ## License
 

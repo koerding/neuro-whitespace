@@ -2,58 +2,58 @@
   {
     "region": "prefrontal cortex",
     "category": "frontal cortex",
-    "parent": "",
+    "parent": "frontal cortex",
     "n_descendants": 4,
-    "inclusive_query": "((\"prefrontal cortex\"[tiab] OR (\"PFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"prefrontal cortex\"[tiab] OR (\"PFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) NOT ((\"orbitofrontal cortex\"[tiab] OR \"orbital frontal cortex\"[tiab] OR (\"OFC\"[tiab] AND (orbital[tiab] OR frontal[tiab] OR prefrontal[tiab] OR cortex[tiab]))) OR (\"ventromedial prefrontal cortex\"[tiab] OR (\"vmPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])) OR (\"VMPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab]))) OR (\"dorsolateral prefrontal cortex\"[tiab] OR (\"dlPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])) OR (\"DLPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab]))) OR (\"medial prefrontal cortex\"[tiab] OR (\"mPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"prefrontal cortex\"[tiab] OR (\"PFC\"[tiab] AND (prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "(((\"prefrontal cortex\"[tiab] OR (\"PFC\"[tiab] AND (prefrontal[tiab])))) NOT ((\"orbitofrontal cortex\"[tiab] OR \"orbital frontal cortex\"[tiab]) OR (\"ventromedial prefrontal cortex\"[tiab] OR (\"vmPFC\"[tiab] AND (prefrontal[tiab])) OR (\"VMPFC\"[tiab] AND (prefrontal[tiab]))) OR (\"dorsolateral prefrontal cortex\"[tiab] OR (\"dlPFC\"[tiab] AND (prefrontal[tiab])) OR (\"DLPFC\"[tiab] AND (prefrontal[tiab]))) OR (\"medial prefrontal cortex\"[tiab] OR (\"mPFC\"[tiab] AND (prefrontal[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "medial prefrontal cortex",
     "category": "frontal cortex",
     "parent": "prefrontal cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"medial prefrontal cortex\"[tiab] OR (\"mPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"medial prefrontal cortex\"[tiab] OR (\"mPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"medial prefrontal cortex\"[tiab] OR (\"mPFC\"[tiab] AND (prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"medial prefrontal cortex\"[tiab] OR (\"mPFC\"[tiab] AND (prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "dorsolateral prefrontal cortex",
     "category": "frontal cortex",
     "parent": "prefrontal cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"dorsolateral prefrontal cortex\"[tiab] OR (\"dlPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])) OR (\"DLPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"dorsolateral prefrontal cortex\"[tiab] OR (\"dlPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])) OR (\"DLPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"dorsolateral prefrontal cortex\"[tiab] OR (\"dlPFC\"[tiab] AND (prefrontal[tiab])) OR (\"DLPFC\"[tiab] AND (prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"dorsolateral prefrontal cortex\"[tiab] OR (\"dlPFC\"[tiab] AND (prefrontal[tiab])) OR (\"DLPFC\"[tiab] AND (prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "ventromedial prefrontal cortex",
     "category": "frontal cortex",
     "parent": "prefrontal cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"ventromedial prefrontal cortex\"[tiab] OR (\"vmPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])) OR (\"VMPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"ventromedial prefrontal cortex\"[tiab] OR (\"vmPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])) OR (\"VMPFC\"[tiab] AND (cortex[tiab] OR cortical[tiab] OR prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"ventromedial prefrontal cortex\"[tiab] OR (\"vmPFC\"[tiab] AND (prefrontal[tiab])) OR (\"VMPFC\"[tiab] AND (prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"ventromedial prefrontal cortex\"[tiab] OR (\"vmPFC\"[tiab] AND (prefrontal[tiab])) OR (\"VMPFC\"[tiab] AND (prefrontal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "orbitofrontal cortex",
     "category": "frontal cortex",
     "parent": "prefrontal cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"orbitofrontal cortex\"[tiab] OR \"orbital frontal cortex\"[tiab] OR (\"OFC\"[tiab] AND (orbital[tiab] OR frontal[tiab] OR prefrontal[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"orbitofrontal cortex\"[tiab] OR \"orbital frontal cortex\"[tiab] OR (\"OFC\"[tiab] AND (orbital[tiab] OR frontal[tiab] OR prefrontal[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"orbitofrontal cortex\"[tiab] OR \"orbital frontal cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"orbitofrontal cortex\"[tiab] OR \"orbital frontal cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "frontal cortex",
     "category": "frontal cortex",
     "parent": "",
-    "n_descendants": 0,
+    "n_descendants": 8,
     "inclusive_query": "((\"frontal cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"frontal cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"frontal cortex\"[tiab])) NOT ((\"motor cortex\"[tiab] OR \"primary motor cortex\"[tiab]) OR (\"supplementary motor area\"[tiab]) OR (\"premotor cortex\"[tiab]) OR (\"prefrontal cortex\"[tiab] OR (\"PFC\"[tiab] AND (prefrontal[tiab]))) OR (\"orbitofrontal cortex\"[tiab] OR \"orbital frontal cortex\"[tiab]) OR (\"ventromedial prefrontal cortex\"[tiab] OR (\"vmPFC\"[tiab] AND (prefrontal[tiab])) OR (\"VMPFC\"[tiab] AND (prefrontal[tiab]))) OR (\"dorsolateral prefrontal cortex\"[tiab] OR (\"dlPFC\"[tiab] AND (prefrontal[tiab])) OR (\"DLPFC\"[tiab] AND (prefrontal[tiab]))) OR (\"medial prefrontal cortex\"[tiab] OR (\"mPFC\"[tiab] AND (prefrontal[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "motor cortex",
     "category": "frontal cortex",
-    "parent": "",
+    "parent": "frontal cortex",
     "n_descendants": 2,
-    "inclusive_query": "((\"motor cortex\"[tiab] OR \"primary motor cortex\"[tiab] OR (\"M1\"[tiab] AND (motor[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"motor cortex\"[tiab] OR \"primary motor cortex\"[tiab] OR (\"M1\"[tiab] AND (motor[tiab] OR cortex[tiab])))) NOT ((\"supplementary motor area\"[tiab] OR (\"SMA\"[tiab] AND (motor[tiab] OR cortex[tiab]))) OR (\"premotor cortex\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"motor cortex\"[tiab] OR \"primary motor cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "(((\"motor cortex\"[tiab] OR \"primary motor cortex\"[tiab])) NOT ((\"supplementary motor area\"[tiab]) OR (\"premotor cortex\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "premotor cortex",
@@ -68,16 +68,16 @@
     "category": "frontal cortex",
     "parent": "motor cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"supplementary motor area\"[tiab] OR (\"SMA\"[tiab] AND (motor[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"supplementary motor area\"[tiab] OR (\"SMA\"[tiab] AND (motor[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"supplementary motor area\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"supplementary motor area\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "somatosensory cortex",
     "category": "sensory cortex",
     "parent": "",
     "n_descendants": 0,
-    "inclusive_query": "((\"somatosensory cortex\"[tiab] OR \"primary somatosensory cortex\"[tiab] OR (\"S1\"[tiab] AND (somatosensory[tiab] OR cortex[tiab] OR barrel[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"somatosensory cortex\"[tiab] OR \"primary somatosensory cortex\"[tiab] OR (\"S1\"[tiab] AND (somatosensory[tiab] OR cortex[tiab] OR barrel[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"somatosensory cortex\"[tiab] OR \"primary somatosensory cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"somatosensory cortex\"[tiab] OR \"primary somatosensory cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "parietal cortex",
@@ -85,47 +85,47 @@
     "parent": "",
     "n_descendants": 1,
     "inclusive_query": "((\"parietal cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"parietal cortex\"[tiab])) NOT ((\"posterior parietal cortex\"[tiab] OR (\"PPC\"[tiab] AND (parietal[tiab] OR cortex[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"parietal cortex\"[tiab])) NOT ((\"posterior parietal cortex\"[tiab] OR (\"PPC\"[tiab] AND (parietal[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "posterior parietal cortex",
     "category": "sensory cortex",
     "parent": "parietal cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"posterior parietal cortex\"[tiab] OR (\"PPC\"[tiab] AND (parietal[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"posterior parietal cortex\"[tiab] OR (\"PPC\"[tiab] AND (parietal[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"posterior parietal cortex\"[tiab] OR (\"PPC\"[tiab] AND (parietal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"posterior parietal cortex\"[tiab] OR (\"PPC\"[tiab] AND (parietal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "auditory cortex",
     "category": "sensory cortex",
     "parent": "",
     "n_descendants": 0,
-    "inclusive_query": "((\"auditory cortex\"[tiab] OR \"primary auditory cortex\"[tiab] OR (\"A1\"[tiab] AND (auditory[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"auditory cortex\"[tiab] OR \"primary auditory cortex\"[tiab] OR (\"A1\"[tiab] AND (auditory[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"auditory cortex\"[tiab] OR \"primary auditory cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"auditory cortex\"[tiab] OR \"primary auditory cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "visual cortex",
     "category": "sensory cortex",
-    "parent": "",
+    "parent": "occipital cortex",
     "n_descendants": 1,
     "inclusive_query": "((\"visual cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"visual cortex\"[tiab])) NOT ((\"primary visual cortex\"[tiab] OR \"striate cortex\"[tiab] OR (\"V1\"[tiab] AND (visual[tiab] OR cortex[tiab] OR cortical[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"visual cortex\"[tiab])) NOT ((\"primary visual cortex\"[tiab] OR \"striate cortex\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "primary visual cortex",
     "category": "sensory cortex",
     "parent": "visual cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"primary visual cortex\"[tiab] OR \"striate cortex\"[tiab] OR (\"V1\"[tiab] AND (visual[tiab] OR cortex[tiab] OR cortical[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"primary visual cortex\"[tiab] OR \"striate cortex\"[tiab] OR (\"V1\"[tiab] AND (visual[tiab] OR cortex[tiab] OR cortical[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"primary visual cortex\"[tiab] OR \"striate cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"primary visual cortex\"[tiab] OR \"striate cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "occipital cortex",
     "category": "sensory cortex",
     "parent": "",
-    "n_descendants": 0,
+    "n_descendants": 2,
     "inclusive_query": "((\"occipital cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"occipital cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"occipital cortex\"[tiab])) NOT ((\"visual cortex\"[tiab]) OR (\"primary visual cortex\"[tiab] OR \"striate cortex\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "temporal cortex",
@@ -133,7 +133,7 @@
     "parent": "",
     "n_descendants": 2,
     "inclusive_query": "((\"temporal cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"temporal cortex\"[tiab])) NOT ((\"superior temporal gyrus\"[tiab] OR (\"STG\"[tiab] AND (temporal[tiab] OR cortex[tiab] OR gyrus[tiab]))) OR (\"inferior temporal cortex\"[tiab] OR \"inferotemporal cortex\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"temporal cortex\"[tiab])) NOT ((\"superior temporal gyrus\"[tiab]) OR (\"inferior temporal cortex\"[tiab] OR \"inferotemporal cortex\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "inferior temporal cortex",
@@ -148,8 +148,8 @@
     "category": "sensory cortex",
     "parent": "temporal cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"superior temporal gyrus\"[tiab] OR (\"STG\"[tiab] AND (temporal[tiab] OR cortex[tiab] OR gyrus[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"superior temporal gyrus\"[tiab] OR (\"STG\"[tiab] AND (temporal[tiab] OR cortex[tiab] OR gyrus[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"superior temporal gyrus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"superior temporal gyrus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "fusiform gyrus",
@@ -178,34 +178,34 @@
   {
     "region": "anterior cingulate cortex",
     "category": "limbic cortex",
-    "parent": "",
+    "parent": "cingulate cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"anterior cingulate cortex\"[tiab] OR (\"ACC\"[tiab] AND (cingulate[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"anterior cingulate cortex\"[tiab] OR (\"ACC\"[tiab] AND (cingulate[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"anterior cingulate cortex\"[tiab] OR (\"ACC\"[tiab] AND (cingulate[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"anterior cingulate cortex\"[tiab] OR (\"ACC\"[tiab] AND (cingulate[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "posterior cingulate cortex",
     "category": "limbic cortex",
-    "parent": "",
+    "parent": "cingulate cortex",
     "n_descendants": 0,
-    "inclusive_query": "((\"posterior cingulate cortex\"[tiab] OR (\"PCC\"[tiab] AND (cingulate[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"posterior cingulate cortex\"[tiab] OR (\"PCC\"[tiab] AND (cingulate[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"posterior cingulate cortex\"[tiab] OR (\"PCC\"[tiab] AND (cingulate[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"posterior cingulate cortex\"[tiab] OR (\"PCC\"[tiab] AND (cingulate[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "cingulate cortex",
     "category": "limbic cortex",
     "parent": "",
-    "n_descendants": 0,
+    "n_descendants": 2,
     "inclusive_query": "((\"cingulate cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"cingulate cortex\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"cingulate cortex\"[tiab])) NOT ((\"posterior cingulate cortex\"[tiab] OR (\"PCC\"[tiab] AND (cingulate[tiab]))) OR (\"anterior cingulate cortex\"[tiab] OR (\"ACC\"[tiab] AND (cingulate[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "retrosplenial cortex",
     "category": "limbic cortex",
     "parent": "",
     "n_descendants": 0,
-    "inclusive_query": "((\"retrosplenial cortex\"[tiab] OR (\"RSC\"[tiab] AND (retrosplenial[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"retrosplenial cortex\"[tiab] OR (\"RSC\"[tiab] AND (retrosplenial[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"retrosplenial cortex\"[tiab] OR (\"RSC\"[tiab] AND (retrosplenial[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"retrosplenial cortex\"[tiab] OR (\"RSC\"[tiab] AND (retrosplenial[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "insular cortex",
@@ -220,8 +220,8 @@
     "category": "limbic cortex",
     "parent": "",
     "n_descendants": 0,
-    "inclusive_query": "((\"entorhinal cortex\"[tiab] OR (\"EC\"[tiab] AND (entorhinal[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"entorhinal cortex\"[tiab] OR (\"EC\"[tiab] AND (entorhinal[tiab] OR cortex[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"entorhinal cortex\"[tiab] OR (\"EC\"[tiab] AND (entorhinal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"entorhinal cortex\"[tiab] OR (\"EC\"[tiab] AND (entorhinal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "perirhinal cortex",
@@ -253,7 +253,7 @@
     "parent": "",
     "n_descendants": 5,
     "inclusive_query": "((\"hippocampus\"[tiab] OR \"hippocampal formation\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"hippocampus\"[tiab] OR \"hippocampal formation\"[tiab])) NOT ((\"subiculum\"[tiab]) OR (\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR (\"CA3\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab] OR mossy[tiab]))) OR (\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR (\"CA2\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab]))) OR (\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR (\"CA1\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab]))) OR (\"dentate gyrus\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"hippocampus\"[tiab] OR \"hippocampal formation\"[tiab])) NOT ((\"subiculum\"[tiab]) OR (\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab]) OR (\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab]) OR (\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab]) OR (\"dentate gyrus\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "dentate gyrus",
@@ -268,24 +268,24 @@
     "category": "hippocampal",
     "parent": "hippocampus",
     "n_descendants": 0,
-    "inclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR (\"CA1\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR (\"CA1\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"hippocampal CA1\"[tiab] OR \"CA1 region\"[tiab] OR \"CA1 pyramidal\"[tiab] OR \"CA1 neurons\"[tiab] OR \"CA1 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "CA2",
     "category": "hippocampal",
     "parent": "hippocampus",
     "n_descendants": 0,
-    "inclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR (\"CA2\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR (\"CA2\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"hippocampal CA2\"[tiab] OR \"CA2 region\"[tiab] OR \"CA2 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "CA3",
     "category": "hippocampal",
     "parent": "hippocampus",
     "n_descendants": 0,
-    "inclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR (\"CA3\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab] OR mossy[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR (\"CA3\"[tiab] AND (hippocamp*[tiab] OR pyramidal[tiab] OR mossy[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"hippocampal CA3\"[tiab] OR \"CA3 region\"[tiab] OR \"CA3 pyramidal\"[tiab] OR \"CA3 neurons\"[tiab] OR \"CA3 of the hippocampus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "subiculum",
@@ -509,7 +509,7 @@
     "parent": "",
     "n_descendants": 4,
     "inclusive_query": "((\"hypothalamus\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"hypothalamus\"[tiab])) NOT ((\"mammillary bodies\"[tiab] OR \"mammillary body\"[tiab] OR \"mamillary bodies\"[tiab]) OR (\"suprachiasmatic nucleus\"[tiab] OR (\"SCN\"[tiab] AND (circadian[tiab] OR suprachiasmatic[tiab] OR nucleus[tiab]))) OR (\"paraventricular nucleus\"[tiab] OR (\"PVN\"[tiab] AND (hypothalam*[tiab] OR paraventricular[tiab]))) OR (\"arcuate nucleus\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"hypothalamus\"[tiab])) NOT ((\"mammillary bodies\"[tiab] OR \"mammillary body\"[tiab] OR \"mamillary bodies\"[tiab]) OR (\"suprachiasmatic nucleus\"[tiab] OR (\"SCN\"[tiab] AND (circadian[tiab] OR suprachiasmatic[tiab]))) OR (\"paraventricular nucleus\"[tiab] OR (\"PVN\"[tiab] AND (hypothalam*[tiab] OR paraventricular[tiab]))) OR (\"arcuate nucleus\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "arcuate nucleus",
@@ -532,8 +532,8 @@
     "category": "hypothalamus",
     "parent": "hypothalamus",
     "n_descendants": 0,
-    "inclusive_query": "((\"suprachiasmatic nucleus\"[tiab] OR (\"SCN\"[tiab] AND (circadian[tiab] OR suprachiasmatic[tiab] OR nucleus[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"suprachiasmatic nucleus\"[tiab] OR (\"SCN\"[tiab] AND (circadian[tiab] OR suprachiasmatic[tiab] OR nucleus[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"suprachiasmatic nucleus\"[tiab] OR (\"SCN\"[tiab] AND (circadian[tiab] OR suprachiasmatic[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"suprachiasmatic nucleus\"[tiab] OR (\"SCN\"[tiab] AND (circadian[tiab] OR suprachiasmatic[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "mammillary bodies",
@@ -562,10 +562,10 @@
   {
     "region": "midbrain",
     "category": "midbrain",
-    "parent": "",
+    "parent": "brainstem",
     "n_descendants": 7,
     "inclusive_query": "((\"midbrain\"[tiab] OR \"mesencephalon\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"midbrain\"[tiab] OR \"mesencephalon\"[tiab])) NOT ((\"interpeduncular nucleus\"[tiab]) OR (\"periaqueductal gray\"[tiab] OR \"periaqueductal grey\"[tiab] OR (\"PAG\"[tiab] AND (periaqueductal[tiab] OR midbrain[tiab] OR gray[tiab] OR grey[tiab]))) OR (\"red nucleus\"[tiab] OR \"nucleus ruber\"[tiab]) OR (\"inferior colliculus\"[tiab]) OR (\"superior colliculus\"[tiab] OR (\"SC\"[tiab] AND (colliculus[tiab] OR tectum[tiab] OR superior[tiab]))) OR (\"ventral tegmental area\"[tiab] OR (\"VTA\"[tiab] AND (tegmental[tiab] OR midbrain[tiab] OR dopamin*[tiab] OR mesolimbic[tiab]))) OR (\"substantia nigra\"[tiab] OR (\"SNc\"[tiab] AND (nigra[tiab] OR dopamin*[tiab])) OR (\"SNr\"[tiab] AND (nigra[tiab] OR reticulata[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"midbrain\"[tiab] OR \"mesencephalon\"[tiab])) NOT ((\"interpeduncular nucleus\"[tiab]) OR (\"periaqueductal gray\"[tiab] OR \"periaqueductal grey\"[tiab] OR (\"PAG\"[tiab] AND (periaqueductal[tiab]))) OR (\"red nucleus\"[tiab] OR \"nucleus ruber\"[tiab]) OR (\"inferior colliculus\"[tiab]) OR (\"superior colliculus\"[tiab] OR (\"SC\"[tiab] AND (colliculus[tiab] OR tectum[tiab]))) OR (\"ventral tegmental area\"[tiab] OR (\"VTA\"[tiab] AND (tegmental[tiab] OR midbrain[tiab] OR dopamin*[tiab] OR mesolimbic[tiab]))) OR (\"substantia nigra\"[tiab] OR (\"SNc\"[tiab] AND (nigra[tiab] OR dopamin*[tiab])) OR (\"SNr\"[tiab] AND (nigra[tiab] OR reticulata[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "substantia nigra",
@@ -588,8 +588,8 @@
     "category": "midbrain",
     "parent": "midbrain",
     "n_descendants": 0,
-    "inclusive_query": "((\"superior colliculus\"[tiab] OR (\"SC\"[tiab] AND (colliculus[tiab] OR tectum[tiab] OR superior[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"superior colliculus\"[tiab] OR (\"SC\"[tiab] AND (colliculus[tiab] OR tectum[tiab] OR superior[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"superior colliculus\"[tiab] OR (\"SC\"[tiab] AND (colliculus[tiab] OR tectum[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"superior colliculus\"[tiab] OR (\"SC\"[tiab] AND (colliculus[tiab] OR tectum[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "inferior colliculus",
@@ -612,8 +612,8 @@
     "category": "midbrain",
     "parent": "midbrain",
     "n_descendants": 0,
-    "inclusive_query": "((\"periaqueductal gray\"[tiab] OR \"periaqueductal grey\"[tiab] OR (\"PAG\"[tiab] AND (periaqueductal[tiab] OR midbrain[tiab] OR gray[tiab] OR grey[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "((\"periaqueductal gray\"[tiab] OR \"periaqueductal grey\"[tiab] OR (\"PAG\"[tiab] AND (periaqueductal[tiab] OR midbrain[tiab] OR gray[tiab] OR grey[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "inclusive_query": "((\"periaqueductal gray\"[tiab] OR \"periaqueductal grey\"[tiab] OR (\"PAG\"[tiab] AND (periaqueductal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
+    "exclusive_query": "((\"periaqueductal gray\"[tiab] OR \"periaqueductal grey\"[tiab] OR (\"PAG\"[tiab] AND (periaqueductal[tiab])))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "interpeduncular nucleus",
@@ -627,9 +627,9 @@
     "region": "brainstem",
     "category": "brainstem",
     "parent": "",
-    "n_descendants": 9,
+    "n_descendants": 17,
     "inclusive_query": "((\"brainstem\"[tiab] OR \"brain stem\"[tiab])) AND (\"2015\"[PDAT] : \"2025\"[PDAT])",
-    "exclusive_query": "(((\"brainstem\"[tiab] OR \"brain stem\"[tiab])) NOT ((\"locus coeruleus\"[tiab] OR \"locus ceruleus\"[tiab]) OR (\"raphe nuclei\"[tiab] OR \"raphe nucleus\"[tiab]) OR (\"dorsal raphe nucleus\"[tiab] OR \"dorsal raphe\"[tiab]) OR (\"parabrachial nucleus\"[tiab]) OR (\"medulla oblongata\"[tiab]) OR (\"area postrema\"[tiab]) OR (\"nucleus tractus solitarius\"[tiab] OR \"nucleus of the solitary tract\"[tiab] OR (\"NTS\"[tiab] AND (solitar*[tiab] OR brainstem[tiab]))) OR (\"pons\"[tiab]) OR (\"pontine nuclei\"[tiab] OR \"pontine nucleus\"[tiab]))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
+    "exclusive_query": "(((\"brainstem\"[tiab] OR \"brain stem\"[tiab])) NOT ((\"locus coeruleus\"[tiab] OR \"locus ceruleus\"[tiab]) OR (\"raphe nuclei\"[tiab] OR \"raphe nucleus\"[tiab]) OR (\"dorsal raphe nucleus\"[tiab] OR \"dorsal raphe\"[tiab]) OR (\"parabrachial nucleus\"[tiab]) OR (\"medulla oblongata\"[tiab]) OR (\"area postrema\"[tiab]) OR (\"nucleus tractus solitarius\"[tiab] OR \"nucleus of the solitary tract\"[tiab] OR (\"NTS\"[tiab] AND (solitar*[tiab] OR brainstem[tiab]))) OR (\"pons\"[tiab]) OR (\"pontine nuclei\"[tiab] OR \"pontine nucleus\"[tiab]) OR (\"midbrain\"[tiab] OR \"mesencephalon\"[tiab]) OR (\"interpeduncular nucleus\"[tiab]) OR (\"periaqueductal gray\"[tiab] OR \"periaqueductal grey\"[tiab] OR (\"PAG\"[tiab] AND (periaqueductal[tiab]))) OR (\"red nucleus\"[tiab] OR \"nucleus ruber\"[tiab]) OR (\"inferior colliculus\"[tiab]) OR (\"superior colliculus\"[tiab] OR (\"SC\"[tiab] AND (colliculus[tiab] OR tectum[tiab]))) OR (\"ventral tegmental area\"[tiab] OR (\"VTA\"[tiab] AND (tegmental[tiab] OR midbrain[tiab] OR dopamin*[tiab] OR mesolimbic[tiab]))) OR (\"substantia nigra\"[tiab] OR (\"SNc\"[tiab] AND (nigra[tiab] OR dopamin*[tiab])) OR (\"SNr\"[tiab] AND (nigra[tiab] OR reticulata[tiab]))))) AND (\"2015\"[PDAT] : \"2025\"[PDAT])"
   },
   {
     "region": "pons",
